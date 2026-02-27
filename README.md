@@ -1,30 +1,31 @@
 # Rooted Project Web App
 
-A simple web app designed for first-year students to track daily check-ins, add academic tasks, and brave actions, and see their progress.
+A simple web app created to help first-year students stay on top of their day, take small brave actions, and track their progress one meaningful step at a time. This project was inspired by the challenges of starting university and wanting to build habits that actually stick.
+
+---
 
 ## Features
-- Daily check-in
-- Add one academic task
-- Add one brave action
-- View progress count
+- ✅ Daily check-in to reflect on your day
+- ✅ Add one academic task to stay organized
+- ✅ Add one brave action to step out of your comfort zone
+- ✅ View progress count and celebrate your growth
+
+---
 
 ## Tech Stack
-- Python 3.x
-- Flask
-- HTML, CSS, JavaScript
-- Temporary storage (for now)
+- **Python 3.x**
+- **Flask** (web framework)
+- **HTML, CSS, JavaScript**
+- **Temporary storage** (for now, easy to upgrade later)
 
-## How to Run
-1. Clone the repository:  
-   `git clone <your-repo-link>`
-2. Navigate to the project folder:  
-   `cd <project-folder>`
-3. Install dependencies:  
-   `pip install -r requirements.txt`
-4. Run the app:  
-   `python app.py`
-5. Open your browser and go to:  
-   `http://localhost:5000`
+---
+
+## How to Access
+The app is live and can be accessed from any browser via this link:  
+(link here)
+
+No installation or setup is needed — just click the link and start tracking your daily tasks and brave actions
+
 
 ## Usage
 1. Go to the homepage.
@@ -33,10 +34,11 @@ A simple web app designed for first-year students to track daily check-ins, add 
 4. See your progress grow over time!
 
 ## Future Improvements
-- Add user authentication
-- Use a database instead of temporary storage
-- Add analytics dashboard for progress
-- Mobile-friendly design
+- Add user authentication so multiple students can use it safely
+- Switch from temporary storage to a database
+- Add analytics dashboard to visualize progress
+- Make the app mobile-friendly
+- Include motivational quotes or reminders to inspire users
 
 ## License
 This project is open-source for learning and personal use.
