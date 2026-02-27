@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress</title>
+</head>
+<body>
+    <h1>Your Progress</h1>
+    <p>Total Days Checked In: {{ total }}</p>
+    <ul>
+    {% for item in check_ins %}
+        <li>Mood: {{ item.mood }}, Task: {{ item.task }}, Brave Action: {{ item.brave }}</li>
+    {% endfor %}
+    </ul>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>
